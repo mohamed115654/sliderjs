@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="styleFille/stylePage.css">
+</head>
+<body>
+    
+    <!-- Start Slide Show Parent Box-->
+    <div class="container">
+
+        <!-- Start slide image & number -->
+        <div class="slide-content">
+
+            <div class="slide-show">    <!-- slide 1 -->
+                <div class="slide-show-number">1 / 6</div>
+                <img src="pictures/slide-1.jpg">
+                <div class="slide-show-caption">slide one</div>
+            </div>
+    
+            <div class="slide-show">    <!-- slide 2 -->
+                <div class="slide-show-number">2 / 6</div>
+                <img src="pictures/slide-2.jpg">
+                <div class="slide-show-caption">slide tow</div>
+            </div>
+    
+            <div class="slide-show">    <!-- slide 3 -->
+                <div class="slide-show-number">3 / 6</div>
+                <img src="pictures/slide-4.jpg">
+                <div class="slide-show-caption">slide three</div>
+            </div>
+    
+            <div class="slide-show">    <!-- slide 4 -->
+                <div class="slide-show-number">4 / 6</div>
+                <img src="pictures/slide-5.jpg">
+                <div class="slide-show-caption">slide four</div>
+            </div>
+    
+            <div class="slide-show">    <!-- slide 5 -->
+                <div class="slide-show-number">5 / 6</div>
+                <img src="pictures/slide-6.jpg">
+                <div class="slide-show-caption">slide five</div>
+            </div>
+    
+            <div class="slide-show">    <!-- slide 6 -->
+                <div class="slide-show-number">6 / 6</div>
+                <img src="pictures/slide-8.jpg">
+                <div class="slide-show-caption">slide six</div>
+            </div>
+            
+        </div>
+        <!-- End slide image & number -->
+        <!-- Start Slide Control Next & Previous -->
+        <div class="control-content">
+            <div class="next" onclick="plus(1)">next</div>
+            <div class="prev" onclick="plus(-1)">prev</div>
+        </div>
+        <!-- End Slide Control Next & Previous -->
+        <!-- Start dots Mobility -->
+        <div class="dots-content">
+            <ul>
+                <li class="dots" onclick="dots(0)">1</li>
+                <li class="dots" onclick="dots(1)">2</li>
+                <li class="dots" onclick="dots(2)">3</li>
+                <li class="dots" onclick="dots(3)">4</li>
+                <li class="dots" onclick="dots(4)">5</li>
+                <li class="dots" onclick="dots(5)">6</li>
+            </ul>
+        </div>
+        <!-- End dots Mobility -->
+    </div>
+    <!-- End Slide Show Parent Box-->
+
+
+    <script src="jsFile/scriptPage.js"></script>
+</body>
+</html>
